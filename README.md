@@ -6,10 +6,10 @@ Para este projeto, além de migrarmos do JSON para o JSON Server, vamos permitir
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Marina Borges Bonomo de Matos
+- Matrícula: 907022
+- Proposta de projeto escolhida: Site comercial de vendas de frutas
+- Breve descrição sobre seu projeto: Um e-comerce onde o usuário navega pelas opções de produtos e pode ver os detalhes
 
 **Prints do trabalho**
 
@@ -17,33 +17,43 @@ Para este projeto, além de migrarmos do JSON para o JSON Server, vamos permitir
 
 ```json
 {
-  "cidades": [
+  "produtos": [
     {
       "id": 1,
-      "nome": "Paris",
-      "descricao": "Capital francesa famosa por arte, gastronomia e arquitetura icônica.",
-      "conteudo": "Paris oferece museus de classe mundial, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura e experiências gastronômicas.",
-      "pais": "França",
-      "destaque": true,
-      "data": "2025-03-30",
-      "imagemPrincipal": "img/paris.jpg"
-    }
-  ],
-  "atracoes": [
+      "nome": "CARANGO",
+      "preco": 16.44,
+      "categoria": "savana",
+      "imagem": "assets/imagens/carango.jpg",
+      "descricao": "De qualidade selvagem, seu sabor é surpreendente para todos que experimentam, prova e diz aí.",
+      "emEstoque": true
+    },
     {
-      "id": 1,
-      "cidadeId": 1,
-      "nome": "Torre Eiffel",
-      "descricao": "Monumento símbolo de Paris com mirantes panorâmicos.",
-      "imagem": "img/atracoes/torre_eiffel.jpg"
+      "id": 2,
+      "nome": "PIRICATE",
+      "preco": 24.99,
+      "categoria": "passaro",
+      "imagem": "assets/imagens/piricate.jpg",
+      "descricao": "Ótimo para sua voz e saúde, com uma adubação natural, o sabor ressalta o timbre de todas as vozes existentes. Compre e repita.",
+      "emEstoque": true
+    },
+    {
+      "id": 3,
+      "nome": "NEMORANGE",
+      "preco": 30.89,
+      "categoria": "aquatico",
+      "imagem": "assets/imagens/nemorange_.jpg",
+      "descricao": "Um suco natural com uma lembrança do mar, só tome cuidado com a qunatidade, pode causar ataques de riso.",
+      "emEstoque": true
     }
   ]
 }
 ```
 
 << COLOQUE A IMAGEM DA HOME AQUI >>
+![home](/public/assets/imagens/Ahome.png)
 
 << COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
+![Detalhes](/public/assets/imagens/Adetalhes.png)
 
 
 
